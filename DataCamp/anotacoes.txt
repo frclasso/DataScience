@@ -1,0 +1,7 @@
+
+Data Camp - trilha Python
+
+1 - Python Basics - ok
+2 - Python Lists - ok
+3 - Functions and Packages -- VOLTAR AQUI
+4 - Numpy - 50%
