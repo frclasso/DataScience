@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/DataCamp_Learn_Python_for_DataScience.iml" filepath="$PROJECT_DIR$/.idea/DataCamp_Learn_Python_for_DataScience.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/DataScience.iml" filepath="$PROJECT_DIR$/.idea/DataScience.iml" />
     </modules>
   </component>
 </project>

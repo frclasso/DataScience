@@ -17,7 +17,7 @@ np_height = np.array(height)
 np_weight = np.array(weight)
 
 bmi = np_weight / np_height ** 2
-#print(bmi)  #  [22.01877777 24.90787982 23.74763705 15.84502114 21.90942854]
+print(bmi)  #  [22.01877777 24.90787982 23.74763705 15.84502114 21.90942854]
 
 #print(bmi[1])
 print(bmi < 16) #[False False False  True False]

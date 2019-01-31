@@ -21,8 +21,8 @@ print(np_2D.shape)
 # (2, 5) duas linhas e 5 colunas
 
 # Subsetting
-print(np_2D[0][2])
-print(np_2D[0,2])
-print(np_2D[:, 1:3])  # : as duas linhas , 1:3 do segundo ao 4 elemento
-print()
-print(np_2D[1, :]) # segunda linhas, todos os elementos
+# print(np_2D[0][2])
+# print(np_2D[0,2])
+# print(np_2D[:, 1:3])  # : as duas linhas , 1:3 do segundo ao 4 elemento
+# print()
+# print(np_2D[1, :]) # segunda linhas, todos os elementos
