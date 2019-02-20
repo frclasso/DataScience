@@ -193,11 +193,15 @@ matrixcov = []
 #array_matrix = np.array(df.to_records().view(type=np.matrix))
 array_matrix = np.array(pdCOV.to_records().view(type=np.matrix))
 
+print(np.shape(array_matrix))
 
 
-print(pdCOV)
+#np.reshape(array_matrix, newshape=(10,10, -1))
+
+#print(pdCOV)
 print()
 print(array_matrix)
+
 
 # ----------------------------------------------------------------
 
