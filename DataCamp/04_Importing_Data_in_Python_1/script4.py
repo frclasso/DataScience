@@ -15,3 +15,4 @@ data_array = np.array(data)
 
 # Print the datatype of data_array to the shell
 print(type(data_array))
+print(data_array)

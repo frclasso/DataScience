@@ -4,7 +4,7 @@
 import pandas as pd
 
 # Import Twitter data as DataFrame: df
-tweets_df = pd.read_csv('tweets_like_Trump.csv', index_col=0)
+tweets_df = pd.read_csv('tweets.csv', index_col=0, chunksize=10)
 
 # Define count_entries()
 
@@ -34,10 +34,10 @@ def count_entries(df, col_name='lang'):
     return cols_count
 
 # Call count_entries(): result1
-result1 = count_entries(tweets_df)
+result1 = count_entries(tweets_df, 'lang')
 
 # Call count_entries(): result2
-result2 = count_entries(tweets_df, 'source')
+result2 = count_entries(tweets_df,'lang', 'source')
 
 # Print result1 and result2
 print(result1)
